@@ -5,7 +5,6 @@
 }
 
 body {
-  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
   }
@@ -51,7 +50,6 @@ section {
   background-position: center;
   position: relative;
 }
-
 
 .hero-form {
   border: 3px solid #024e76;
@@ -194,7 +192,6 @@ section {
 .contact {
   text-align: center;
   background: #024e76;
-}
 }
 .section-title {
   font-size: 55px;
