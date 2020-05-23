@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> e11f96d03defa70268b7551c568c895f1cda3a11
 # Run Buddy
 
 ## Purpose
