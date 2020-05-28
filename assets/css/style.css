@@ -111,7 +111,7 @@ section {
 
 .intro p {
   line-height: 1.7;
-  color: #39a6b2;
+  color: #39a6b2 !important;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
@@ -165,14 +165,13 @@ section {
   line-height: 1.5;
   color: #024e76;
 }
-}
 
 .primary-border {
   border-color: #fce138;
 }
 
 .secondary-border {
-  border-color: #39a6b2;
+  border-color: #39a6b2 !important;
 }
 
 /* Style Trainers */
@@ -220,6 +219,19 @@ section {
 .trainer-bio p {
   font-size: 17px;
 }
+
+/* Service Grid */
+.service-grid-container {
+  display: grid;
+}
+
+.service-grid-item {
+  width: 200px;
+  height: 50px;
+  background-color: Orange;
+  border: solid;
+  Color: black;
+}
 /* REACH OUT STYLES START */
 .contact {
  background: #024e76;
@@ -233,8 +245,7 @@ section {
   padding-bottom: 20px;
   border-bottom: 3px solid;
   color: #fce138;
-  align: center;
-  border-color: teal;
+  border-color: teal !important;
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
