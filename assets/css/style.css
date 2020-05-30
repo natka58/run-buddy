@@ -221,16 +221,32 @@ section {
 }
 
 /* Service Grid */
+.grid-container {
+  place-items: <align-items>  <justify-items>;
+}
+
 .service-grid-container {
   display: grid;
+  max-width: 940px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap:10px;
+ 
 }
 
 .service-grid-item {
-  width: 200px;
-  height: 50px;
-  background-color: Orange;
-  border: solid;
-  Color: black;
+  
+}
+.box1 {
+   
+}
+.box2 {
+ 
+}
+
+.box3 {
+  
 }
 /* REACH OUT STYLES START */
 .contact {
